@@ -1,4 +1,4 @@
-# DB FAQ Blocks 2.0.0
+# DB FAQ Blocks
 
 ## What changed
 
