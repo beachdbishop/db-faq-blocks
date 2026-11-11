@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "db-faq-blocks/faqs",
+  "version": "2.0.2",
+  "title": "FAQs Container",
+  "category": "text",
+  "icon": "excerpt-view",
+  "description": "Contains question and answer blocks and controls their front-end format.",
+  "textdomain": "db-faq-blocks",
+  "attributes": {
+    "outputFormat": {
+      "type": "string",
+      "enum": [
+        "plain",
+        "details"
+      ],
+      "default": "plain"
+    }
+  },
+  "providesContext": {
+    "db-faq-blocks/outputFormat": "outputFormat"
+  },
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "className": true
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css",
+  "render": "file:./render.php"
+}

@@ -1,0 +1,8 @@
+.db-faqs--plain {
+	display: grid;
+	gap: 1rem;
+
+	@media (width >= 1280px) {
+		gap: 1.5rem;
+	}
+}

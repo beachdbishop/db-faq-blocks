@@ -1,0 +1,13 @@
+:root {
+	--db_faq_spacing: 4px;
+}
+.db-faqs-editor {
+	border: 1px dashed oklch(50.8% 0.118 165.612);
+	padding: calc(4 * var(--db_faq_spacing));
+}
+.db-faqs-editor
+	> .block-editor-inner-blocks
+	> .block-editor-block-list__layout {
+	display: grid;
+	gap: calc(3 * var(--db_faq_spacing));
+}

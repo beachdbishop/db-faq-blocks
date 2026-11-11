@@ -1,0 +1,19 @@
+.db-faqs--plain .db-faq-item--plain {}
+.db-faqs--plain .db-faq-item--plain .db-faq-item__answer {}
+
+
+.db-faqs--details:not(.accordions) {
+	details {
+		/* border-bottom: 1px solid currentColor; */
+		padding: 0.75rem 0;
+	}
+
+	summary {
+		cursor: pointer;
+		font-weight: 600;
+	}
+
+	.db-faq-item__answer {
+		padding-block-start: 0.75rem;
+	}
+}
