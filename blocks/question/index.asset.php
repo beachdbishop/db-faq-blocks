@@ -1,13 +1,12 @@
 <?php
-
 return array(
-    'dependencies' => array(
-        'wp-blocks',
-        'wp-block-editor',
-        'wp-components',
-        'wp-data',
-        'wp-element',
-        'wp-i18n',
-    ),
-    'version' => '2.0.2',
+	'dependencies' => array(
+		'wp-blocks',
+		'wp-block-editor',
+		'wp-components',
+		'wp-data',
+		'wp-element',
+		'wp-i18n',
+	),
+	'version' => '2.0.2',
 );
