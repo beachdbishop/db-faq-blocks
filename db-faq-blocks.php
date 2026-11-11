@@ -6,6 +6,7 @@
  * Requires at least: 6.5
  * Requires PHP: 7.4
  * Author: Daniel Bishop
+ * Author URI: https://beachfleischman.com/
  * Text Domain: db-faq-blocks
  */
 
