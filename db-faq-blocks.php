@@ -2,7 +2,7 @@
 /**
  * Plugin Name: DB FAQ Blocks
  * Description: FAQ container and question blocks with selectable plain-text or details/summary output and FAQPage schema.
- * Version: 2.0.2
+ * Version: 2.1.0
  * Requires at least: 6.5
  * Requires PHP: 7.4
  * Author: Daniel Bishop
