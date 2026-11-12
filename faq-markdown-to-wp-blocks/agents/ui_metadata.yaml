@@ -1,5 +1,0 @@
-interface:
-  display_name: "FAQ Markdown to WP Blocks"
-  short_description: "Convert FAQ markdown into DB FAQ Blocks markup"
-  icon: "code"
-  brand_color: "#003366"
